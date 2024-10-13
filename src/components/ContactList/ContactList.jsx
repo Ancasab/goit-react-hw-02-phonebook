@@ -18,7 +18,7 @@ const ContactItem = ({ contact, deleteContact }) => {
 
   return (
     <ContactItems>
-      <ContactName>{contact.name}</ContactName>
+      <ContactName>{contact.name}: </ContactName>
       <ContactNumber>{contact.number}</ContactNumber>
       <Button onClick={handleDelete}>Delete</Button>
     </ContactItems>

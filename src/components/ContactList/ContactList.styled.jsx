@@ -10,12 +10,13 @@ export const ContactItems = styled.li`
 `;
 
 export const ContactName = styled.span`
-  
+  font-size: 25px;
   margin-right: 10px;
 `;
 
 export const ContactNumber = styled.span`
-  /* flex: 1; */
+  font-size: 20px;
+  
 `;
 
 export const Button = styled.button`
@@ -23,8 +24,13 @@ export const Button = styled.button`
   margin-left: 20px;  
   font-size: 14px;
   border-radius: 6px;
-  border: 1px solid;
-    :hover {
-    background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #007bff;
+    color: #fff;
   }
+  
 `;
