@@ -1,5 +1,5 @@
 
-import { Input } from './Filter.styled'
+import { Input, Text } from './Filter.styled'
 
 const ContactFilter = ({ filter, setFilter }) => {
     const handleFilterChange = (event) => {
@@ -7,15 +7,19 @@ const ContactFilter = ({ filter, setFilter }) => {
     };
 
     return (
-        <Input
-            type="text"
-            name='filter'
-            placeholder="Search by name"
-            value={filter}
-            onChange={handleFilterChange}
+        <>    
+            <Text>
+                <p>Find contacts by name</p>
+            </Text>
+            <Input
+                type="text"
+                name='filter'
+                value={filter}
+                onChange={handleFilterChange}
 
-        />
-    );
+            />
+        </>
+            );
 }
 
 export default ContactFilter

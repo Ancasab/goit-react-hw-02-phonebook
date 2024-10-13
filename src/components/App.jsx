@@ -45,7 +45,7 @@ export const  App = () => {
 
   return (
     <Container>
-      <Title>Phonebook📱</Title>
+      <Title>Phonebook &#9743; </Title>
       <ContactForm addContact={addContact} contacts={contacts} />
 
       <Heading2>Contacts</Heading2>

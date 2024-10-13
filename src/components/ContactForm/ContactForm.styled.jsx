@@ -3,31 +3,43 @@ import styled from 'styled-components';
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  width: 500px;
+  margin: 0 0 20px 0;
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: left;
 `;
 
 export const Input = styled.input`
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 6px;
-  border: none;
-  outline: 0;
-  background-color: #fff;
-  box-shadow: 0 1px 6px 0 #20212447;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 250px;
 `;
 
 export const Button = styled.button`  
-  padding: 10px 20px;
-  margin-top: 5px;
-  font-size: 14px;
-  border-radius: 6px;
-  border: 1px solid;
-    :hover {
-    background-color: #e0e0e0;
+  width: 150px;
+  font-size: 17px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-top: 5px; 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #0056b3;
   }
 `;
 
 export const Text = styled.p`
-  /* padding: 10px 20px; */
-  margin-bottom: 15px;
+  font-size: 30px;
+  margin-bottom: 5px; 
+  margin-top: 5px; 
+
 `;

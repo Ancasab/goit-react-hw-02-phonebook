@@ -3,9 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;  
-    height: 100vh;
-    text-align: center    
+    justify-content: center;
+    font-size: 35px;
+    align-items: flex-start;  
+    text-align: center;
+    color: '#010101'; 
+    padding-left:20px;
+
 `;
 
 export const Title = styled.h1`
